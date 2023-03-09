@@ -1,1 +1,1 @@
-__import__('add_0.py')
+import add_0
