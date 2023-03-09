@@ -9,4 +9,4 @@ if __name__ == '__main__':
     for i, v in enumerate(argv):
         if not i:
             continue
-        print("{:d}: {}".format(i, v))
+        print("{:d}: {:s}".format(i, v))
