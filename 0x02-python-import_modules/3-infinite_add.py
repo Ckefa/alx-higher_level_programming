@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
-from sys import argv
+if __name__ == '__main__':  
+    from sys import argv
 
-print(sum(map(lambda x: int(x), argv[1:])))
+    print(sum(map(lambda x: int(x), argv[1:])))
