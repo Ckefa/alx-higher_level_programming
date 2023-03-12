@@ -6,4 +6,3 @@ def new_in_list(my_list, idx, element):
     cache = copy.deepcopy(my_list)
     cache[idx] = element
     return cache
-
