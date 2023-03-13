@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
 def new_in_list(my_list, idx, element):
-    import copy
+    cache = my_list.copy()
 
-    cache = copy.deepcopy(my_list)
-    cache[idx] = element
-    return cache
+    if idx < 0 or idx >= len(my_list):
+        return cache
+    else:
+        cache[idx] = element
+        return cache
