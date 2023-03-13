@@ -7,5 +7,4 @@ def print_matrix_integer(matrix=[[]]):
             break
         else:
             for j in i:
-                print("{:d}".format(j), end="\n" if i.index(j) == len(i) - 1 else " ")
-
+                print("{:d}".format(j), end="\n" if i.index(j) >= len(i) - 1 else " ")
