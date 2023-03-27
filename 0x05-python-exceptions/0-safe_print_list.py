@@ -6,4 +6,5 @@ def safe_print_list(my_list=[], x=0):
             print(my_list[i], end="")
             sum += 1
     finally:
-        print("nb_print:", sum)
+        print()
+        return sum
