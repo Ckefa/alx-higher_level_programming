@@ -3,5 +3,3 @@ class Square:
     """
     This is an empty class
     """
-    def __init__(self):
-        pass
