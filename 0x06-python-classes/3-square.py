@@ -4,7 +4,7 @@
 
 
 class Square:
-    """Represent class square"""
+    """Represent a square"""
 
     def __init__(self, size=0):
         if isinstance(size, int):
