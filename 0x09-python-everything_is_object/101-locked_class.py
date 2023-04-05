@@ -6,10 +6,3 @@
 class LockedClass:
     """Represent a locked class."""
     __slots__ = ["first_name"]
-    def __init__(self):
-        pass
-
-    def __setattr__(self, key, value):
-        if key != "first_name":
-            raise raise AttributeError("'LockedClass' object has no attribute '" + key + "'")
-        self.__dict__[key] = value
