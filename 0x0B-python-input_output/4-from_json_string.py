@@ -9,4 +9,4 @@ def from_json_string(my_str):
     Args:
     my_str (str): The string to be converted to an object.
     """
-    return json.loads(mystr)
+    return json.loads(my_str)
