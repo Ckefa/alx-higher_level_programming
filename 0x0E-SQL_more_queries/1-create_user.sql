@@ -1,5 +1,5 @@
 CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost'
 IDENTIFIED BY 'user_0d_1';
-GRANT ALL PRIILEGES 
+GRANT ALL PREVILEGES 
 ON *.*
 TO 'user_0d_1'@'localhost';
